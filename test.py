@@ -1,4 +1,4 @@
-import lib, json, time
+import objcrypt, json, time
 
 dictionary = {
     'test': 'test value',
@@ -8,7 +8,7 @@ print('Values may change but the Key Test shows that hardcoded dictionary will a
 time.sleep(5)
 print('Python Object:\n', dictionary)
 print()
-encrypter = lib.Crypter('test')
+encrypter = objcrypt.Crypter('test', 'cbc')
 print('Python Obj Encryption'.center(45, '-'))
 enc_dict = encrypter.encrypt_object(dictionary)
 print(enc_dict)
