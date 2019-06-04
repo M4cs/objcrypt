@@ -1,6 +1,16 @@
 # objcrypt
 easily encrypt and decrypt python object and JSON objects with AES CBC 32 Block Encryption
 
+# installation
+
+```
+pip install objcrypt
+
+or
+
+python3 setup.py install
+```
+
 # usage
 
 ```
