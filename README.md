@@ -18,7 +18,7 @@ python3 setup.py install
 ```
 import objcrypt, json
 
-crypter = objcrypt.Crypter('key', 'cbc')
+crypter = objcrypt.Crypter('key')
 dictionary = {
   'test': 'test value'
 }
